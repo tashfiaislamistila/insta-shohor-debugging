@@ -62,65 +62,27 @@
     <!-- Question & Answer  -->
     <section>
         <h1 class="text-center mb-5">Question & Answer</h1>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        How does javascript works?
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Everything in javascript happens inside an ececution context.Execution context is like a
-                            big box which is contain two components.First components is memory component and second
-                            component is the code component.In memory component all the variable and function are stored
-                            as key-value pairs.And code component is the place where code is executed one line at a
-                            time.Javascript is a synchronous single threaded language.Javascript can only execute one
-                            command at a time.It is execute in a specific order.So that means it can only go to the
-                            next line once the current line has been finished executing.</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        What does javascript event loop do?
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Difference between local storage and session storage?
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
-                    </div>
-                </div>
-            </div>
+        <div>
+            <h2>Q1: How does javascript works?</h2>
+            <p>Ans: Everything in javascript happens inside an ececution context.Execution context is like a
+                big box which is contain two components.First components is memory component and second
+                component is the code component.In memory component all the variable and function are stored
+                as key-value pairs.And code component is the place where code is executed one line at a
+                time.Javascript is a synchronous single threaded language.Javascript can only execute one
+                command at a time.It is execute in a specific order.So that means it can only go to the
+                next line once the current line has been finished executing.</p>
+            <h2>Q2: Difference between local storage and session storage??</h2>
+            <p>Ans: Session Storage: Session storage data has a larger capacity to hold.When we
+                stored data in session storage that means the data is continue to exists only for that
+                particular session.If the user close the tab data is lost session storage has a expiry.But
+                session storage has larger capacity to hold data.Capacity of session storage 5 MB, and also
+                session storage store data in client side.</p>
+            <p>Local Storage: In local storage it does not clean data itself.Local storage does not come with expiary.
+                If the user closes the web browser tab close or shut down the system and come back again to visit same
+                web browser or website data is still exists at the browser. People can keep data stored in the browser
+                till as long as user want.Local storage has highest memory capasity compare to session storage.Local
+                storage memory capacity is depend on what type of device or browser you used.
+            </p>
         </div>
     </section>
     <footer></footer>
