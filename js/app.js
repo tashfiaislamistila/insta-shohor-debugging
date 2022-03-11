@@ -133,7 +133,6 @@ const createPost = (post) => {
 
 const showPosts = (posts) => {
   const productsContainer = document.getElementById("posts");
-  console.log(productsContainer)
   productsContainer.innerHTML = "";
 
   posts.forEach((post) => {
@@ -143,6 +142,7 @@ const showPosts = (posts) => {
 };
 
 const displayLikedPosts = () => {
+
   const likedPosts = getLikedPosts();
   likedPosts.forEach((post) => {
     const div = createPost(post);
@@ -151,6 +151,7 @@ const displayLikedPosts = () => {
 };
 
 const displayReportedPosts = () => {
+  document.getElementById("reported").innerHTML = "";
   const reportedPosts = getReportedPosts();
   reportedPosts.forEach((post) => {
     const div = createPost(post);
